@@ -1,0 +1,22 @@
+.container {
+    margin: 45px auto;
+    max-width: 45vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cs {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        margin: 40px auto;
+        max-width: 90vw;
+    }
+}
